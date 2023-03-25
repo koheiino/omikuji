@@ -3,7 +3,7 @@ let userresult;
 
 username = prompt("お名前を教えて下さい。");
 
-//ユーザーが「キャンセル」をクリックした場合に null
+//ユーザーが「キャンセル」をクリックした場合に null,　名前未入力に対応
 if (username == "" || username == null) {
     document.getElementById("name").innerHTML = "名無し";
 } else {
